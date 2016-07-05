@@ -1,0 +1,108 @@
+
+type = integer-attribute
+name = DATASET_DIMENSIONS
+count = 5
+	64	64	18	0	0
+
+type = integer-attribute
+name = DATASET_RANK
+count = 8
+	3	2	0	0	0
+	0	0	0	
+
+type = integer-attribute
+name = BRICK_TYPES
+count = 2
+	1	1	
+
+type = string-attribute
+name = BYTEORDER_STRING
+count = 10
+'LSB_FIRST~
+
+type = integer-attribute
+name = ORIENT_SPECIFIC
+count = 3
+	0	5	2	
+
+type = float-attribute
+name = ORIGIN
+count = 3
+	-118.125	118.125	96.8	
+
+type = float-attribute
+name = DELTA
+count = 3
+	3.75	-3.75	-4	
+
+type = string-attribute
+name = BRICK_LABS
+count = 38
+'Masked Delay~Masked Cross Correlation~
+
+type = integer-attribute
+name = SCENE_DATA
+count = 8
+	0	11	1	-999	-999
+	-999	-999	-999	
+
+type = string-attribute
+name = TYPESTRING
+count = 15
+'3DIM_HEAD_FUNC~
+
+type = string-attribute
+name = IDCODE_DATE
+count = 21
+'05-Jul-2016 11:14:21~
+
+type = float-attribute
+name = BRICK_STATAUX
+count = 6
+	1	2	3	160	2
+	2	
+
+type = string-attribute
+name = HISTORY_NOTE
+count = 593
+'[ziad@iodine.nimh.nih.gov: Mon Apr 30 11:44:20 2001] 3dcalc -a ARzs_CW_r1vr+orig -b ARzs_CW_r2vr+orig -c ARzs_CW_r3vr+orig -d ARzs_CW_r4vr+orig -e ARzs_CW_r5vr+orig -expr '((a+b+c+d+e)/5)' -prefix ARzs_CW_avvr\n[ziad@iodine.nimh.nih.gov: Mon Apr 30 13:22:26 2001] 3ddelay -ideal_file Ref_ARzs.1D -fs 0.5 -T 45 -input ARzs_CW_avvr+orig\n[ziad@iodine.nimh.nih.gov: Mon Apr 30 13:22:26 2001] Output prefix: ARzs_CW_avvr.DEL\n[shimona@shimona-HP-Pavilion-g6-Notebook-PC: 05-Jul-2016 11:14:21]\n\t/home/shimona/Documents/JHU Prep Toolboxes/AFNI/Demo_Bricks\n\tMatAFNI_Demo(ln211)->WriteBrik(ln551)~
+
+type = string-attribute
+name = LABEL_1
+count = 5
+'zyxt~
+
+type = string-attribute
+name = LABEL_2
+count = 5
+'zyxt~
+
+type = string-attribute
+name = DATASET_NAME
+count = 5
+'zyxt~
+
+type = string-attribute
+name = FileFormat
+count = 5
+'BRIK~
+
+type = string-attribute
+name = Extension_1D
+count = 1
+'~
+
+type = float-attribute
+name = BRICK_FLOAT_FACS
+count = 2
+	0.0012204	2.90515e-05	
+
+type = float-attribute
+name = BRICK_STATS
+count = 4
+	-1	39.9887	0	0.95193	
+
+type = string-attribute
+name = GEN_SOURCE
+count = 83
+'WriteBrik matlab library functions V2.0 (please report bugs to saadz@mail.nih.gov)~
